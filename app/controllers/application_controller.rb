@@ -25,4 +25,8 @@ class ApplicationController < Sinatra::Base
     end
 
   end
+
+  get '/signup' do
+  "Hello World"
+end
 end
