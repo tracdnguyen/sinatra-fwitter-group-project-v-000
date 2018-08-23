@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     if !logged_in?
       erb :'users/create_user'
     else
-      redirect to '/index'
+      redirect to '/tweets'
     end
   end
 
